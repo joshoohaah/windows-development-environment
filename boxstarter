@@ -19,21 +19,21 @@ cinst Git-Credential-Manager-for-Windows
 cinst github
 
 ## Node, npm
-cinst -y nodejs.install
-npm install -g npm-windows-upgrade
+# cinst -y nodejs.install
+# npm install -g npm-windows-upgrade
 
 ## Editors
 cinst -y visualstudiocode
 
 ## Visual Studio 2017
-cinst -y visualstudio2017community
-if (Test-PendingReboot) { Invoke-Reboot }
+# cinst -y visualstudio2017community
+# if (Test-PendingReboot) { Invoke-Reboot }
 
 ## Ruby, Go, Python
 cinst -y ruby
 cinst -y ruby.devkit
 
-cinst -y python2
+# cinst -y python2
 
 if (Test-PendingReboot) { Invoke-Reboot }
 
@@ -42,7 +42,7 @@ cinst -y vlc
 cinst -y GoogleChrome
 cinst -y 7zip.install
 cinst -y sysinternals
-cinst -y DotNet3.5
+# cinst -y DotNet3.5
 
 # cinst -y DotNet4.0 -- not needed on windows 8
 # cinst -y DotNet4.5 -- not needed on windows 10
